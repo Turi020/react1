@@ -1,0 +1,19 @@
+.list li {
+    color: white;
+    padding: 30px;
+    background-color: blue;
+    width: 100px;
+    margin: 0px 0px 1px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button {
+    background-color: greenyellow;
+    padding: 20px;
+    width: fit-content;
+}
+
+.button:hover {
+    cursor: pointer;
+}

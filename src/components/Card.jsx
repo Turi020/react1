@@ -6,10 +6,6 @@ export default function Card({name, jobtitle, description}){
             <p className="font-bold ">{name}</p>
             <p>{jobtitle}</p>
             <p>{description}</p>          
-        
-        
-        
-        
         </div>
 
     )
