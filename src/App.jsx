@@ -15,9 +15,10 @@ function App() {
     <>
     <div className="content">
      <List elements={["Coffee", "Beer", "Tea"]}/>
-     
      </div>
-     <Button text ="Sender"/>
+    
+      <Button vorname ={"Sendar"}/>
+
     </>
   );
 }
