@@ -1,7 +1,7 @@
 import React from 'react';
 import List from './List';
 import Button from './Button';
-import Image from './Image';
+
 
 export default function Sample2() {
   return (
