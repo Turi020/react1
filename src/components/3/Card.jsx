@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function Card(name, title, ImgUri) {
+export default function Card(name, title, imageUri) {
   return (
     <div className='border grid grid-cols-4 h-40'>
 
@@ -9,8 +9,8 @@ export default function Card(name, title, ImgUri) {
             <h2 className='font-bold text-2xl'>{name}</h2>
             <h4>{title}</h4>
         </div>
-        <div className='bg-green-50 w-full h-full '>
-            <img src={ImgUri} alt='' className='object-cover w-full'/>
+        <div className='bg-green-50 w-full  '>
+            <img src={imageUri} alt='' className='object-cover w-full h-full'/>
         </div>
     </div>
   )
