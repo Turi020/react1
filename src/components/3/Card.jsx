@@ -14,4 +14,4 @@ export default function Card(name, title, imageUri) {
         </div>
     </div>
   )
-}
+} 
