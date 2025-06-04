@@ -6,8 +6,7 @@ type Props = {
 }
 
 type Users ={
-    name: string;
-    lastname: string;
+    username:string;
 }
 
 export default function Test2({title}: Props) {
@@ -23,7 +22,7 @@ export default function Test2({title}: Props) {
     const fetchUsers = async ()=>{
 
         useEffect(()=>{
-            fetch("https://jsonplaceholder.typicode.com/users ").then((res) => res.json().then((data)=>
+            fetch("https://jsonplaceholder.typicode.com/users").then((res) => res.json().then((data)=>
                 {
                   setUsers(data);
                 })
@@ -35,7 +34,7 @@ export default function Test2({title}: Props) {
         <h1>
         {title}    
         </h1>
-        {Users?.map((Users: Users)=>(<div key={Users.name}>{Users.lastname}</div>
+        {Users.map((Users)=>(<div><h2>{Users.username}</h2></div>
     ))}
         
         

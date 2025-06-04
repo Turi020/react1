@@ -20,13 +20,13 @@ const[Color, setColor]=useState([]);
   return (
     <div>
         <h1>People</h1>   
-        <button 
-          onClick={()=>{setColor("green")
+       <div>
+       <input className="border p-8" type='text' onChange={()=>{
 
-          }}
-          >
-            Change Color
-            </button>
+       }}/>
+       </div>
+          
+           
 
         <div className="grid grid-cols-4 lg:grid-cols-4 gap-4">
           {people.map(person => {
