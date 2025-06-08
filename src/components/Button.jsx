@@ -1,13 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function Button({vorname}) {
+export default function Button() {
   return (
-    <ul className="button">
-    <div className="">
-            <p className="font-bold ">{vorname}</p>
-        
-            </div>
-    
-    </ul>
-  
-);}
+    <button className="w-full bg-yellow-300 border border-black p-2 m-2">
+      Button
+    </button>
+  );
+}
