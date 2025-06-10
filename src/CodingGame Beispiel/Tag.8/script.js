@@ -26,7 +26,7 @@ I'll need to wake up early tomorrow.
  * the standard input according to the problem statement.
  **/
 
-const awkwardnessLevel = parseInt(readline());
+const awkwardnessLevel = 66;
 
 if (awkwardnessLevel >= 1 && awkwardnessLevel <= 3) {
     console.log("I'll need to wake up early tomorrow.");
@@ -40,5 +40,6 @@ if (awkwardnessLevel >= 1 && awkwardnessLevel <= 3) {
 } else if (awkwardnessLevel === 10) {
     console.log("Sorry, but I think this isn't working out.");
 }
+else(console.log("Nice try"))
 // Write an answer using console.log()
 // To debug: console.error('Debug messages...')

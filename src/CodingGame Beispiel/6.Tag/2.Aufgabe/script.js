@@ -87,10 +87,12 @@ Expected output
  * the standard input according to the problem statement.
  **/
 
-const N = parseInt(readline());
+const N = 20;
 
 // Write an answer using console.log()
 // To debug: console.error('Debug messages...');
-for(let i=1;i<= N;i+=2){
-    console.log(i)
+for(let i=1;i<= N;i++){
+    if(!(i%2==0)){
+        console.log(i);
+    }
 }

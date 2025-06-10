@@ -102,11 +102,12 @@ true
  * the standard input according to the problem statement.
  **/
 
-const N = parseInt(readline());
-for (let i = 0; i < N; i++) {
-    const X = parseInt(readline());
-
-    console.log(X%2===0)
+const N = 4;
+for (let i = 0; i <= N; i++) {
+    if(i%2==0){
+        console.log(true)
+    }
+    else(console.log(false))
     
     
 }

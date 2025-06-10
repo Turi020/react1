@@ -27,9 +27,11 @@ Output
  * the standard input according to the problem statement.
  **/
 
-const N = parseInt(readline());
-for(let i=1; i<=N; i+=2){
-    console.log(i);
+const N = 9;
+for(let i=1; i<=N; i++){
+    if(!(i%2==0)){
+        console.log(i)
+    }
 }
 // Write an answer using console.log()
 // To debug: console.error('Debug messages...');

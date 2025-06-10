@@ -19,8 +19,8 @@ Output
  * the standard input according to the problem statement.
  **/
 
-const leg1 = parseInt(readline());
-const leg2 = parseInt(readline());
+const leg1 = 2;
+const leg2 = 3;
 const hypotenuse = Math.sqrt(leg1*leg1+leg2*leg2)
 // Write an answer using console.log()
 // To debug: console.error('Debug messages...');

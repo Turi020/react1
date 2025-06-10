@@ -1,5 +1,5 @@
-/*Alex has two bottles for holding water. Bottle 1 can hold up to L1 liter of water .
-Now it contains L2 liter of water. Bottle 2 contains L3 liter of water. he will transfer water from Bottle 2 to Bottle 1.
+/*Alex has two bottles for holding water. Bottle 1 can hold up to 18 liter of water .
+Now it contains 7 liter of water. Bottle 2 contains 19 liter of water. he will transfer water from Bottle 2 to Bottle 1.
 
 After transferring as much water as possible from Bottle 2 to Bottle 1,
 he will get 15 coins FOR EACH litre of water left in Bottle 2
@@ -25,9 +25,9 @@ Constraints
  * the standard input according to the problem statement.
  **/
 
-const l1 = parseInt(readline());
-const l2 = parseInt(readline());
-const l3 = parseInt(readline());
+const l1 = 18;
+const l2 = 7;
+const l3 = 19;
 
 const contain = l1-l2;
 const transfer = Math.min(contain, l3)

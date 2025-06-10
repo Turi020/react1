@@ -46,9 +46,9 @@ Expected output
  * the standard input according to the problem statement.
  **/
 
-const n = parseInt(readline());
+const n = 10;
 
 // Write an answer using console.log()
 // To debug: console.error('Debug messages...');
 
-console.log(n+Math.floor(n/2));
+console.log(n+(n/2));

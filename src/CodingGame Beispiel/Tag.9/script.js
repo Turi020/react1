@@ -33,18 +33,18 @@ YES
  * the standard input according to the problem statement.
  **/
 
-const p = parseInt(readline());
-const h = parseInt(readline());
-const r = parseInt(readline());
+const p = 8;
+const h = 100;
+const r = 800;
 const pay= h*p;
 if(pay>r){
-    console.log("YES");
+    console.log("YES he can pay");
 }
 else if(pay===r){
     console.log("BARELY");
 }
 else if(pay<r)
-    console.log("NO");
+    console.log("NO he cant");
 
 // Write an answer using console.log()
 // To debug: console.error('Debug messages...');

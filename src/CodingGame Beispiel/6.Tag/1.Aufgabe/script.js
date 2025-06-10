@@ -24,12 +24,12 @@ Output
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
  **/
-let sum =0;
-const N = parseInt(readline());
-var inputs = readline().split(' ');
-for (let i = 0; i < N; i++) {
-    const xi = parseInt(inputs[i]);
-    sum+=xi*xi;
+let sum=0;
+const N = 5;
+for (let i = 1; i <= N; i++) {
+    sum+= i*i;
+    
+    
 }
 
 // Write an answer using console.log()
