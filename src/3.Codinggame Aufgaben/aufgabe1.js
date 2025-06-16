@@ -3,7 +3,7 @@
  * the standard input according to the problem statement.
  **/
 
-for (let i = 1; i < 4; i++) {
+for (let i = 1; i < 20; i++) {
 
     if(i%2==0){
         console.log(i*2);
